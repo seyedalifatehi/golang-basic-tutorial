@@ -1,7 +1,8 @@
 ## Package
-1. A package is a collection of source files located in the same directory. All source files in a directory must share the same package name. 
-2. When a package is imported, only entities (functions, types, variables, constants) whose names start with a `capital letter` can be used / accessed.
-3. The recommended style of naming in Go is that identifiers will be named using `camelCase`, except for those meant to be accessible across packages which should be `PascalCase`.
+1. In Go an application is organized in packages.
+2. A package is a collection of source files located in the same directory. All source files in a directory must share the same package name. 
+3. When a package is imported, only entities (functions, types, variables, constants) whose names start with a `capital letter` can be used / accessed.
+4. The recommended style of naming in Go is that identifiers will be named using `camelCase`, except for those meant to be accessible across packages which should be `PascalCase`.
 
 ```go
 package greeting
