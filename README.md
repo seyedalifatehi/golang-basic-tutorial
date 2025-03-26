@@ -94,6 +94,7 @@ if v := 2 * num; v > 10 {
 
 3. The most commonly used function is Sprintf, which uses verbs like %s to interpolate values into a string and returns that string.
 > In Go floating point values are conveniently formatted with Sprintf's verbs: %g (compact representation), %e (exponent) or %f (non exponent). All three verbs allow the field's width and numeric position to be controlled.
+> `fmt.Sprintf()` returns the formatted string but if you want to print that formatted string use should use `fmt.Printf()` (generally, fmt methods that start with S are used for returning the strings)
 
 ## Slices
 
